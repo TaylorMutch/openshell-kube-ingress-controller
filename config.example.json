@@ -1,0 +1,16 @@
+{
+  "controllerID": "discovery-poc",
+  "namespace": "openshell",
+  "gateway": "discovery-poc",
+  "gatewayNamespace": "openshell",
+  "listener": "apps",
+  "backendCAConfigMap": "openshell-supervisor-app-ca",
+  "sources": [{
+    "id": "primary",
+    "endpoint": "https://openshell.openshell.svc:8080",
+    "workspace": "default",
+    "caFile": "/run/discovery/ca.crt",
+    "certFile": "/run/discovery/tls.crt",
+    "keyFile": "/run/discovery/tls.key"
+  }]
+}
