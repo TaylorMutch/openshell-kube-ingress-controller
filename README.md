@@ -1,0 +1,1 @@
+# openshell-kube-ingress-controller
